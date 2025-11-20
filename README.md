@@ -1,8 +1,5 @@
 # 📊 HR Employee Attrition Prediction
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![Library](https://img.shields.io/badge/Library-Scikit--Learn-orange)
-![Status](https://img.shields.io/badge/Status-Completed-green)
 
 ## 💡 Business Problem
 Employee turnover (attrition) is a major cost for businesses. Replacing an employee can cost up to **2x their annual salary** due to recruiting, training, and lost productivity. 
@@ -63,5 +60,6 @@ The model was evaluated on a held-out test set (30% of data).
 | **ROC-AUC** | **~72.3%** | The model's ability to distinguish between "Leavers" and "Stayers". |
 | **Recall (Class 1)** | **High** | The model successfully catches a majority of the employees who actually left. |
 | **Precision (Class 1)** | **Moderate** | There are some false alarms (predicting someone will leave when they stay), which is an acceptable trade-off for retention efforts. |
+
 
 ---
